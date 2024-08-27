@@ -1,0 +1,114 @@
+# .gitignore für C# mit Visual Studio und C++ mit VS Code
+
+# Allgemein für Visual Studio
+.vscode/
+.vs/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# C# und .NET spezifische Dateien
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.pdb
+*.appx
+*.appxsym
+*.appxupload
+*.ilk
+*.log
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+*.vspscc
+*.vssscc
+*.xap
+*.zip
+*.msix
+*.msixbundle
+.project/
+.recommenders/
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+*.symbols.nupkg
+
+# Roslyn cache
+.vscode/.roslyn/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# C++ spezifische Dateien
+*.obj
+*.o
+*.lo
+*.la
+*.al
+*.libs
+*.a
+*.so
+*.dylib
+*.lib
+*.dll
+*.exe
+*.out
+*.i*
+*.pch
+*.pdb
+*.idb
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.sdf
+*.sqlite
+*.cache
+*.VC.db
+*.VC.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
+
+# Visual Studio C++ Builddateien
+Debug/
+Release/
+x64/
+x86/
+ipch/
+*.ipch
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.VC.db
+
+# VS Code C++ spezifisch
+.vscode/
+c_cpp_properties.json
+launch.json
+settings.json
+tasks.json
+
+# Betriebssystemspezifische Dateien
+.DS_Store
+Thumbs.db
+*.log
+
+# Backup-Dateien
+*.bak
+*.swp
+*.tmp
+*.temp
+*.bak2
+
+# Build-Verzeichnisse
+_build/
+build/
+dist/
